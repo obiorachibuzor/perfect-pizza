@@ -1,0 +1,50 @@
+body {
+    background-color: red; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.pizza {
+     /*box-model*/
+     border: 5px solid purple;
+     padding: 1em;
+     margin: 1em;
+     margin-bottom: 0.5em;
+     border-radius: 1em;
+     /*width: 25%;
+     display: inline-block;*/
+}
+
+.pizza1 {
+    background-color: yellow;
+    flex: 2;
+}
+
+.pizza2 {
+    background-color:aquamarine;
+    flex: 3;
+}
+
+.pizza3 {
+    background-color: green;
+    flex: 1;
+}
+
+.contact-us {
+    background-color: blue;
+}
+
+@media (min-width: 760px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width: 960px) {
+    body {
+        background-color: white;
+    }
+    .pizzas {
+        display: flex;
+    } 
+}
